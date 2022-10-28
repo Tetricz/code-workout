@@ -54,7 +54,8 @@ ENV RAILS_ENV=$RAILS_ENV
 RUN gem install bundler -v $BUNDLER_VERSION \
 	&& bundle config --global path "$GEM_HOME" \
 	&& bundle config --global bin "$GEM_HOME/bin" \
-	&& bundle config git.allow_insecure true
+	&& bundle config git.allow_insecure true \
+  && bundle config github.https true
 
 COPY Gemfile Gemfile
 COPY Gemfile.lock Gemfile.lock
