@@ -471,7 +471,7 @@ GEM
     tty-screen (0.6.5)
     tty-tree (0.3.0)
     tty-which (0.4.1)
-    tzinfo (1.2.7)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uber (0.0.15)
     uglifier (4.1.20)
